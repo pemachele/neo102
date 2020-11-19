@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/neo102/static/css/main.7e58e790.chunk.css",
+    "main.js": "/neo102/static/js/main.e63cd44e.chunk.js",
+    "main.js.map": "/neo102/static/js/main.e63cd44e.chunk.js.map",
+    "runtime-main.js": "/neo102/static/js/runtime-main.e5b5d5bf.js",
+    "runtime-main.js.map": "/neo102/static/js/runtime-main.e5b5d5bf.js.map",
+    "static/js/2.058b1c90.chunk.js": "/neo102/static/js/2.058b1c90.chunk.js",
+    "static/js/2.058b1c90.chunk.js.map": "/neo102/static/js/2.058b1c90.chunk.js.map",
+    "static/js/3.37ce4eb3.chunk.js": "/neo102/static/js/3.37ce4eb3.chunk.js",
+    "static/js/3.37ce4eb3.chunk.js.map": "/neo102/static/js/3.37ce4eb3.chunk.js.map",
+    "index.html": "/neo102/index.html",
+    "static/css/main.7e58e790.chunk.css.map": "/neo102/static/css/main.7e58e790.chunk.css.map",
+    "static/js/2.058b1c90.chunk.js.LICENSE.txt": "/neo102/static/js/2.058b1c90.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/neo102/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5b5d5bf.js",
+    "static/js/2.058b1c90.chunk.js",
+    "static/css/main.7e58e790.chunk.css",
+    "static/js/main.e63cd44e.chunk.js"
+  ]
+}
