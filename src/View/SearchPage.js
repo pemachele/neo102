@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 //material ui components
-import {Grid} from "@material-ui/core";
+import {Grid,Typography} from "@material-ui/core";
 
 //custom components
 import TweetCard from "../Components/TweetCard";
@@ -22,11 +22,14 @@ const SearchPage =()=> {
 
 
     return (
-        <Grid  container direction="column" justify="center" alignItems="center">
+        <Grid container direction="column" justify="center" alignItems="center" >
+            <Typography variant="subtitle2" component="h2" color='primary' style={{margin:'2px'}}>
+              search for tweet
+            </Typography>
             <Grid item xs={12} sm={8} md={8}>
-                <SearchTab handler={searchHandler} />
+                <SearchTab handler={searchHandler}  />
             </Grid>
-            <Grid item xs={12} sm={8} md={8}>
+            <Grid item xs={12} sm={8} md={8} style={{marginBottom:'10px'}}>
                 <TweetCard
                     post={content}
                 />

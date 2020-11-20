@@ -9,7 +9,7 @@ import {Grid} from '@material-ui/core'
 const styles = {
     main: {
         margin: '10px 10px 0px 10px',
-        width: '500px'
+
 
     }
 }
@@ -34,6 +34,7 @@ const SearchTab = props => {
                         variant='outlined'
                         className={classes.main}
                         onChange={props.handler}
+                        placeholder="search for a tweet"
 
                     />
                 </Grid>

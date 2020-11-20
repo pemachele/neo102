@@ -23,11 +23,12 @@ export const getResults= async (userInput) =>{
             tweetUrl: tweet.entities.urls,
             profilePic: tweet.user.profile_image_url_https,
             retweetCount: tweet.retweet_count,
-            likes: tweet.favorite_count
+            likes: tweet.favorite_count,
+            media:tweet.entities.media
         }))
         return modifiedData
     }catch (error) {
-      console.log('error message',error)
+
         
     }
 
