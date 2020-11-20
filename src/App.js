@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import{getResults} from "./Services";
-import SearchPage from "./View/SearchPage";
+import SearchPage from "./View/SearchPage"
 
 
 
